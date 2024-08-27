@@ -115,6 +115,7 @@ while True:
            quit()
        elif choise == 'stay':
            print('*playing again:*')
+
    elif percent <= 50:
        print('you are not good couple!')
        choise = input('enter if you want to stay or leave: ')
@@ -123,6 +124,7 @@ while True:
            quit()
        elif choise == 'stay':
            print('*playing again:*')
+
    elif percent > 50 and percent <= 70:
        print('good couple!')
        choise = input('enter if you want to stay or leave: ')
@@ -131,6 +133,7 @@ while True:
            quit()
        elif choise == 'stay':
            print('*playing again:*')
+           
    elif percent > 70 and percent <= 100:
        print(boy_name + ', ' + girl_name + ', ' 'you are best couple!')
        choise = input('enter if you want to stay or leave: ')
