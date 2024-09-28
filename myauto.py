@@ -1,4 +1,3 @@
-
 Initial_budget = 0
 withdraw = int(input('enter how much monwy do u want to deposit: '))
 Initial_budget = Initial_budget + withdraw
@@ -118,7 +117,7 @@ while True:
                                                             camry = ['Camry XLE V6', 'Camry XLE', 'Camry L']
                                                             print(camry)
                                                             camry_choice = input('enter one of that camry to see more information: ' )
-                                                            if camry_choice == camry_choice[0] or camry_choice == '1':
+                                                            if camry_choice == camry[0] or camry_choice == '1':
                                                                 print('date:2020')
                                                                 print('3.5L V6')
                                                                 print('mileage:100000km')
@@ -176,4 +175,5 @@ while True:
                                                                               elif question == "check toyota's":
                                                                                 print(toyota_model_list)
                                                                                 choose_3 = input('please enter the model: ').capitalize()
-# working on i
+
+# working on it

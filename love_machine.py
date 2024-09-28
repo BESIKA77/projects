@@ -142,4 +142,3 @@ while True:
            quit()
        elif choise == 'stay':
            print('*playing again:*')
-           
